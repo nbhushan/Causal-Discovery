@@ -1,17 +1,9 @@
 # Causal Discovery
 
-Substantive theories in psychology aim to describe causal relationships between variables and graphical causal models are a useful representation of such relationships. When substantive theories are yet to be developed,
-causal search algorithms can be used to explore plausible causal relationships
-between variables of interest from observational data. The resulting causal
-graphs can then be used to generate substantive hypotheses which can be put
-to the test on a new data set. We assess two such procedures which use the
-notion of conditional independence to infer underlying causal structures; the
-PC algorithm and the LiNGAM algorithm; so-called constraint-based methods. To validate these procedures, we perform a simulation study varying the
-sample size, number of variables, degree of confounding due a latent common
-cause, non-normality of the error distribution, and graph sparsity. We score
-these procedures using two graph theoretic measures; the structural Hamming
-distance, and the structural intervention distance. Results indicate that for
-sample sizes typical to psychology, it is hard to separate these methods using
-these measures. We further apply these methods on two empirical datasets and
-discuss the implications of using such methods as a theory-generating tool in
-psychological science.
+Researchers often use theories as a tool to explain how different factors or variables affect each other. But sometimes, there isn't enough data to develop a theory from scratch. In these cases, researchers can use causal search algorithms to explore possible relationships between variables. These algorithms can generate graphs that show how different factors might be connected. Researchers can then use these graphs to develop hypotheses that can be tested with new data.
+
+In this study, I compared two causal search algorithms: the PC algorithm and the LiNGAM algorithm. We ran a simulation study to see how well these algorithms performed on different types of data. We found that both algorithms performed well on most types of data. However, for small sample sizes, it was difficult to distinguish between the two algorithms.
+
+I also applied these algorithms to two real-world datasets. In both cases, the algorithms were able to generate graphs that were consistent with the known causal relationships.
+
+These results suggest that causal search algorithms can be a useful tool for researchers who want to develop theories about causal relationships. However, it is important to note that these algorithms are not perfect. They can sometimes generate incorrect graphs, so it is important to carefully evaluate the results.
